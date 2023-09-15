@@ -1,0 +1,207 @@
+:root {
+    /* font-size */
+    --fs_head: 30px;
+    --fs_xl: 20px;
+    --fs_lg: 24px;
+    --fs_cmn: 16px;
+    --fs_md: 18px;
+    --fs_sm: 16px;
+    --fs_xsm: 10px;
+  
+    /* font-weight */
+    --fw_light: 300;
+    --fw_regular: 400;
+    --fw_medium: 500;
+    --fw_semibold: 600;
+    --fw_bold: 700;
+  
+    /* color */
+    --clr_1: #000000;
+    --clr_2: #4d4d4d;
+    --clr_3: #666666;
+    --clr_4: #555555;
+    --clr_5: #28a745;
+    --clr_6: #222222;
+    --clr_7: #808080;
+    --clr_8: #333333;
+    --clr_9: #e0e0e0;
+    --clr_10: #454729;
+    --clr_11: #007bff;
+    --clr_12: #ff0000;
+    --clr_13: #999999;
+    --clr_14: #ff4400;
+    --clr_15: #9c9c9c;
+    --clr_16: #7c7c7c;
+    --clr_17: #9e9e9e;
+    --clr_18: #b6b6b6;
+    --clr_19: #171717;
+    --clr_20: #b9b9b9;
+    --clr_21:#ffffff;
+    --clr_22:#181818;
+    --clr_23:#0d0d0d;
+}
+.fs_head{
+    font-size: var(--fs_head);
+}
+.fs_xl{
+    font-size: var(--fs_xl);
+}
+.fs_lg{
+    font-size: var(--fs_lg);
+}
+.fs_cmn{
+    font-size: var(--fs_cmn);
+}
+.fs_md{
+    font-size: var(--fs_md);
+}
+.fs_sm{
+    font-size: var(--fs_sm);
+}
+.fs_xsm{
+    font-size: var(--fs_xsm);
+}
+.fw_light{
+    font-weight: var(--fw_light);
+}
+.fw_regular{
+    font-weight: var(--fw_regular);
+}
+.fw_medium{
+    font-weight: var(--fw_medium);
+}
+.fw_semibold{
+    font-weight: var(--fw_semibold);
+}
+.fw_bold{
+    font-weight: var(--fw_bold);
+}
+.clr_1{
+    color: var(--clr_1);
+}
+.clr_2{
+    color: var(--clr_2);
+}
+.clr_3{
+    color: var(--clr_3);
+}
+.clr_4{
+    color: var(--clr_4);
+}
+.clr_5{
+    background-color: var(--clr_5);
+}
+.clr_6{
+    color: var(--clr_6);
+}
+.clr_7{
+    color: var(--clr_7);
+}
+.clr_8{
+    color: var(--clr_8);
+}
+.clr_9{
+    color: var(--clr_9);
+}
+.clr_10{
+    color: var(--clr_10);
+}
+.clr_11{
+    color: var(--clr_11);
+}
+.clr_12{
+    color: var(--clr_12);
+}
+.clr_13{
+    color: var(--clr_13);
+}
+.clr_14{
+    background-color: var(--clr_14);
+}
+.clr_15{
+    color: var(--clr_15);
+}
+.clr_16{
+    color: var(--clr_16);
+}
+.clr_17{
+    color: var(--clr_17);
+}
+.clr_18{
+    color: var(--clr_18);
+}
+.clr_19{
+    background-color: var(--clr_19);
+}
+.clr_20{
+    color: var(--clr_20);
+}
+.clr_21{
+    color: var(--clr_21);
+}
+.clr_22{
+    color: var(--clr_22);
+}
+.clr_23{
+    background-color: var(--clr_23);
+}
+@media (min-width:576px) {
+    :root {
+        /* font-size */
+        --fs_head: 30px;
+        --fs_xl: 20px;
+        --fs_lg: 24px;
+        --fs_cmn: 20px;
+        --fs_md: 18px;
+        --fs_sm: 16px;
+        --fs_xsm: 10px;
+    }    
+}
+@media (min-width:768px) {
+    :root {
+        /* font-size */
+        --fs_head: 30px;
+        --fs_xl: 25px;
+        --fs_lg: 24px;
+        --fs_cmn: 20px;
+        --fs_md: 18px;
+        --fs_sm: 16px;
+        --fs_xsm: 10px;
+    }    
+}
+@media (min-width:992px) {
+    :root {
+        /* font-size */
+        --fs_head: 30px;
+        --fs_xl: 25px;
+        --fs_lg: 24px;
+        --fs_cmn: 20px;
+        --fs_md: 18px;
+        --fs_sm: 16px;
+        --fs_xsm: 10px;
+    }    
+}
+@media (min-width:1024px) {
+    :root {
+        /* font-size */
+        --fs_head: 30px;
+        --fs_xl: 25px;
+        --fs_lg: 24px;
+        --fs_cmn: 18px;
+        --fs_md: 18px;
+        --fs_sm: 16px;
+        --fs_xsm: 10px;
+    }    
+}
+@media (min-width:1200px) {
+    :root {
+        /* font-size */
+        --fs_head: 30px;
+        --fs_xl: 25px;
+        --fs_lg: 24px;
+        --fs_cmn: 20px;
+        --fs_md: 18px;
+        --fs_sm: 16px;
+        --fs_xsm: 10px;
+    }    
+}
